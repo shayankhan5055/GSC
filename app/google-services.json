@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "854557190471",
+    "firebase_url": "https://gscmessaging.firebaseio.com",
+    "project_id": "gscmessaging",
+    "storage_bucket": "gscmessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854557190471:android:e0262e1520fe90b9",
+        "android_client_info": {
+          "package_name": "com.example.android.gscmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854557190471-aqoev4ihqq44o23hdgeim9kpicnbqgo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.gscmessaging",
+            "certificate_hash": "7672abf7fe2a2950598c424910e91402aac7b7fa"
+          }
+        },
+        {
+          "client_id": "854557190471-nt9icmmg7gkatsijp69t8ah13jufgt6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk4ysOhzlK9FRfE4TKOH_W8qoRaLGR1V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854557190471-nt9icmmg7gkatsijp69t8ah13jufgt6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

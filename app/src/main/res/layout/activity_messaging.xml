@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gscmessaging.MessagingActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contact"
+            android:id="@+id/imageButton"/>
+
+        <EditText
+            android:id="@+id/editTextcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Enter Phone No."
+            android:layout_toEndOf="@+id/imageButton"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/editTextmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Message Here..."
+        android:layout_weight="0.35"
+        android:gravity="top"/>
+    <Button
+        android:id="@+id/send"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+</LinearLayout>
